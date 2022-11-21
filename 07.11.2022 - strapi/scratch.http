@@ -1,0 +1,4 @@
+GET http://localhost:1337/api/posts?populate[0]=gallery
+Accept: application/json
+
+###

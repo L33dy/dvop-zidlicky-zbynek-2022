@@ -1,0 +1,116 @@
+body {
+  overflow-x: hidden;
+}
+
+.container {
+
+  .navbar {
+    width: 100%;
+    height: 50px;
+
+    background-color: #252525;
+
+    color: white;
+
+    .content {
+      height: 100%;
+      width: 62%;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      .start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        gap: 25px;
+
+        div {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .portfolio {
+    width: 100%;
+    height: 100%;
+
+    margin: 40px 0;
+
+    .portfolio-header {
+      width: 62%;
+      margin: 0 auto;
+
+      h1 {
+        font-size: 36px;
+      }
+
+      span {
+        font-size: 28px;
+        color: grey;
+      }
+    }
+
+    hr {
+      width: 62%;
+      height: 2px;
+      border: none;
+      margin: 10px auto 20px auto;
+
+      background-color: rgba(128, 128, 128, 0.08);
+    }
+
+    .portfolio-content {
+      width: 62%;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+      flex-basis: 25%;
+
+      .portfolio-item {
+        width: 500px;
+        height: 500px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        text-align: left;
+
+        gap: 15px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .title {
+          font-size: 32px;
+          color: cornflowerblue;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    margin-bottom: 40px;
+
+    text-align: center;
+  }
+}

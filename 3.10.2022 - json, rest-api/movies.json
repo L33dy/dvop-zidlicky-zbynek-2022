@@ -1,0 +1,17 @@
+[
+  {
+  "name" : "Annihilation",
+  "genre" : "Thriller",
+  "score" : 9.8
+  },
+  {
+    "name" : "Alpha",
+    "genre" : "Action",
+    "score": 9.1
+  },
+  {
+    "name" : "The Martian",
+    "genre" : "Science Fiction",
+    "score" : 9.5
+  }
+]
