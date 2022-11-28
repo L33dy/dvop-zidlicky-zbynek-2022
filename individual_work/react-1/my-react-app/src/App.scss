@@ -1,9 +1,6 @@
-body {
-  overflow-x: hidden;
-
-}
-
-.container {
+#root {
+  width: 100vw;
+  height: 100vh;
 
   .navbar {
     width: 100%;
@@ -47,6 +44,8 @@ body {
     .portfolio-header {
       width: 62%;
       margin: 0 auto;
+
+      font-weight: 400;
 
       h1 {
         font-size: 36px;
@@ -106,12 +105,5 @@ body {
         }
       }
     }
-  }
-
-  .footer {
-    width: 100%;
-    margin-bottom: 40px;
-
-    text-align: center;
   }
 }

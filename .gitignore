@@ -1,0 +1,4 @@
+# Project exclude paths
+/07.11.2022 - express/node_modules/
+/10.10.2022 - bundle/dist/
+/10.10.2022 - bundle/node_modules/
